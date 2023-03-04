@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+button {
+  font-family: "Mulish", sans-serif;
+}
+
+#css3-spinner-svg-pulse-wrapper {
+  position: absolute;
+  overflow: hidden;
+  width: 260px;
+  height: 210px;
+  top: 50%;
+  left: 50%;
+  margin-top: -105px;
+  margin-left: -130px;
+  background-color: transparent;
+  animation: none;
+  -webkit-animation: none;
+}
+
+#css3-spinner-svg-pulse {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -105px;
+  margin-left: -275px;
+}
+
+#css3-spinner-pulse {
+  stroke-dasharray: 281;
+  -webkit-animation: dash 5s infinite linear forwards;
+}
+
+/*Animation*/
+@-webkit-keyframes dash {
+  from {
+    stroke-dashoffset: 814;
+  }
+
+  to {
+    stroke-dashoffset: -814;
+  }
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 814;
+  }
+
+  to {
+    stroke-dashoffset: -814;
+  }
+}
