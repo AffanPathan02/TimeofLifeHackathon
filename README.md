@@ -1,1 +1,1 @@
-#  time-of-life-v1 is a web3 project like E Nabız, you can connect with your wallet and add information than you will see it with a qr code.
+#  time-of-life aims to improve people's quality of life and use time more effectively by providing a personalized and secure experience using web3 technology and a blockchain platform. 
